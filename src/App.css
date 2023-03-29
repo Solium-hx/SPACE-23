@@ -1,0 +1,80 @@
+* {
+  margin: 0.5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-decoration: none;
+}
+.head {
+  font-size: 2em;
+}
+.subhead {
+  font-size: 1em;
+}
+.title {
+  color: rgb(44, 44, 44);
+  font-family: Verdana, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  list-style: none;
+}
+.menu {
+  background-color: white;
+  border: none;
+  padding: 0.1em;
+  margin: 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  flex-basis: 0;
+  flex-grow: 1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cont {
+  border: solid black;
+}
+
+.drop-menu {
+  display: none;
+  flex-direction: column;
+  height: 0;
+}
+
+.menu:hover + .drop-menu{
+  display: flex;
+}
+.drop-menu:hover {
+  display: flex;
+}
+
+.drop-elem {
+  background-color: rgb(55, 55, 55);
+  margin: 0px;
+  padding: 0.4em;
+  z-index: 10;
+  color: white;
+  text-decoration: none;
+  font-size: 0.7em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.drop-elem:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.map {
+  border: solid black
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
